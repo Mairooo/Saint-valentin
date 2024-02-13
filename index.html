@@ -1,12 +1,13 @@
 <html>
 <head>
-<title>VALENTINE'S DAY</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+<title>Pour ma copine !!</title>
  <link
       rel="icon"
       type="image/png"
       sizes="100%"
-      href="https://cdn-icons-png.flaticon.com/512/9444/9444300.png"
-    />
+      href="https://cdn-icons-png.flaticon.com/512/9444/9444300.png"/>
+      <link rel="stylesheet" href="index.css"/>      
 <style>
 p {
 text-align: center;
@@ -22,9 +23,9 @@ width: 23%;
 </head>
 <body>
  <p>
-  Just wondering if you have plans for Feb 14? I’m thinking about doing something with you ;) 
-  Will you be my Valentine?
- </p>
+  Coucou Vézianne,<br>
+  Je voulais simplement te demander ce que tu as prévu pour ce 14 février ?<br><br>
+  Veux-tu être ma valentine ❤️</p>
 <img src="https://media.tenor.com/WQjlw86rlpsAAAAC/muah-kiss.gif">
 </body>
 <title>Buttons</title>
@@ -32,19 +33,40 @@ width: 23%;
 #Button1 {
 position: fixed;
 top: 70%;
-left: 55%;
+left: 70%;
 transform: translate(-50%, -50%);
+
+text-decoration: none;
+padding: 10px;
+font-family: arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #08508f;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+border: 0px solid #FFFFFF;
 }
 #Button2 {
 position: absolute;
- left: 39%;
-  top: 68%;
+left: 35%;
+top: 68%;
+text-decoration: none;
+padding: 10px;
+font-family: arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #08508f;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+border: 0px solid #FFFFFF;
 }
 </style>
 </head>
 <body>
-<button id="Button1">Yes!</button>
-<button id="Button2">No</button>
+<button id="Button1">OUI</button>
+<button id="Button2">NON</button>
 <script>
 const Button2 = document.getElementById('Button2');
 let left = 40;
@@ -59,7 +81,7 @@ Button2.addEventListener('mouseover', function() {
 
 </script>
 <script>document.getElementById('Button1').addEventListener('click', function() {
-alert('HEHE THANKSSS! I LOVE YOU <3');
+alert('OHHH mais merci ! I LOVE YOU <3');
 });
 </script>
 </body>
